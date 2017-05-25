@@ -1,0 +1,18 @@
+<ion-header>
+</ion-header>
+
+<ion-content padding>
+  <h1>{{led}}</h1>
+  <p>
+    <button  ion-button  medium icon-left (click)='ligaLed();' block>
+      <ion-icon name="bulb"></ion-icon>
+      ligar o led
+    </button>
+  </p>
+  <p>
+    <button  ion-button  medium icon-left color="danger" (click)='desligaLed();' block>
+      <ion-icon name="bulb"></ion-icon>
+      desligar o led
+    </button>
+  </p>
+</ion-content>
